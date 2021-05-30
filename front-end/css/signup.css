@@ -1,37 +1,12 @@
-@import "reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
-
-body {
-  font-family: "Jua", sans-serif;
-  background-color: white;
-}
 * {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
   font-family: sans-serif;
 }
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.center {
-  margin-right: 500px;
-}
-.main__center-avatar {
-  margin-left: 55px;
-  height: 300px;
-  width: 300px;
-}
-.main__center-a {
-  font-size: 40px;
-  text-align: center;
-}
-.main__center-b {
-  font-size: 30px;
-  text-align: center;
+
+body {
+  background-color: white;
 }
 
 .loginForm {
@@ -46,7 +21,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
-  margin-left: 250px;
 }
 
 .loginForm h2 {
@@ -54,7 +28,8 @@ body {
   margin: 30px;
 }
 
-.idForm {
+.idForm,
+.smartmeterForm {
   border-bottom: 2px solid #adadad;
   margin: 30px;
   padding: 10px 10px;
@@ -66,7 +41,8 @@ body {
   padding: 10px 10px;
 }
 
-.id {
+.id,
+.smartmeter {
   width: 100%;
   border: none;
   outline: none;
